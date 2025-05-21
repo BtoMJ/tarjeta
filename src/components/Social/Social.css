@@ -1,0 +1,48 @@
+@media (320px <= width <= 480px){
+
+    .social-container{
+        margin-top: -18vh;
+    }
+}
+
+@media (481px <= width <= 767px){
+
+}
+
+@media (768px <= width <= 1023px){
+
+}
+
+@media (1024px <= width <= 1199px){
+
+}
+
+@media (1200px <= width <= 1919px){
+}
+
+@media (1920px <= width <= 2600px){
+}
+
+
+.social-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    margin-bottom: 8px;
+}
+
+.social-container .btn-social-icon{
+    padding: 0 10px;
+    margin: 5px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background-color: transparent;
+    line-height: 45px;
+}
+
+.social-container .btn-social-icon .social-icon{
+    font-size: 2rem;
+}
