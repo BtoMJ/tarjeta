@@ -3,8 +3,14 @@ import Social from '../Social/Social';
 import logo from '../../assets/Logo.png';
 import 'animate.css';
 import './Home.css';
+import ModalQr from "../ModalQr/ModalQr";
 
 const Home = () => {
+
+    const qrVisible = () => {
+        const form = document.getElementById('modal-qr');
+        form.style.display = 'flex';
+    }
 
     const nativeShare = function() {
 
@@ -27,7 +33,7 @@ const Home = () => {
 
                 <div className="share-container">
                     <FaShareAlt className="icon-share" onClick={nativeShare}/>
-                    <FaQrcode className="icon-share"/>
+                    <FaQrcode className="icon-share" onClick={qrVisible}/>
                 </div>
 
                 <div className="header-name">
@@ -58,6 +64,7 @@ const Home = () => {
                 </p>
 
             </main>
+            <ModalQr />
 
         </section>
     )

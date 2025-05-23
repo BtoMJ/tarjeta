@@ -1,8 +1,8 @@
 @media (320px <= width <= 480px){
 
     .modal-form-container .form-content{
-        width: 85%;
-        height: 75%;
+        width: 320px;
+        height: 520px;
     }
 
 }
