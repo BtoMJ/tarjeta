@@ -1,9 +1,9 @@
 import { FaShareAlt, FaQrcode } from "react-icons/fa";
 import Social from '../Social/Social';
+import ModalQr from "../ModalQr/ModalQr";
 import logo from '../../assets/Logo.png';
 import 'animate.css';
 import './Home.css';
-import ModalQr from "../ModalQr/ModalQr";
 
 const Home = () => {
 
@@ -36,7 +36,7 @@ const Home = () => {
                     <FaQrcode className="icon-share" onClick={qrVisible}/>
                 </div>
 
-                <div className="header-name">
+                <div className="header-name animate__animated animate__zoomIn">
                     <h1>Daniel Mena</h1>
                     <h4>desarrollador web</h4>
                 </div>

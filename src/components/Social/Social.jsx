@@ -21,7 +21,9 @@ const Social = () => {
             </button>
 
             <button className="btn-social-icon animate__animated animate__fadeInUp">
-                <MdEmail className="social-icon" onClick={visible}/>
+                <a>
+                    <MdEmail className="social-icon" onClick={visible}/>
+                </a>
             </button>
 
             <button className="btn-social-icon animate__animated animate__fadeInUp">

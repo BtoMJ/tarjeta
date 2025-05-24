@@ -1,19 +1,87 @@
-@media (320px <= width <= 480px){
+@media (320px <= width <= 480px) and (max-height:667px){
 
-    .home-container .header-container{
-        background-size: 180% !important;
+    .home-container{
+        background-size: 180%;
+        animation: fondoAnimado 50s infinite;
     }
 
     .main-container .logo-container{
         width: 160px;
         height: 160px;
-        border-radius: 100%;
         top:calc(-37%);
+    }
+
+    .home-container .header-container .share-container .icon-share{
+        height: 100px;
+        margin: 15px;
+        font-size: 2.1rem;
+    }
+
+    .home-container .header-container .header-name{
+        height: 65px;
+    }
+
+    .home-container .header-container .header-name h1{ 
+        font-size: 3rem;
+    }
+    
+    .home-container .header-container .header-name h4{ 
+        margin-top: -7px;
+        font-size: 1.2rem;
     }
 
     .main-container a{
         margin-top: 15px;
+        font-size: 1rem;
     }
+
+    .main-container p{
+        font-size: 1rem;
+    }
+
+}
+
+@media (320px <= width <= 480px) and (min-height:668px){
+
+    .home-container{
+        background-size: 210%;
+        animation: fondoAnimado 50s infinite;
+    }
+
+    .main-container .logo-container{
+        width: 180px;
+        height: 180px;
+        top:calc(-42%);
+    }
+
+    .home-container .header-container .share-container .icon-share{
+        height: 150px;
+        margin: 20px;
+        font-size: 2.1rem;
+    }
+
+    .home-container .header-container .header-name{
+        height: 80px;
+    }
+
+    .home-container .header-container .header-name h1{ 
+        font-size: 3rem;
+    }
+    
+    .home-container .header-container .header-name h4{ 
+        margin-top: -7px;
+        font-size: 1.2rem;
+    }
+
+    .main-container a{
+        margin-top: 15px;
+        font-size: 1rem;
+    }
+
+    .main-container p{
+        font-size: 1rem;
+    }
+
 }
 
 @media (481px <= width <= 767px){
@@ -22,16 +90,204 @@
 
 @media (768px <= width <= 1023px){
 
+     .home-container{
+        background-size: 150%;
+        animation: fondoAnimado 60s infinite;
+    }
+
+    .home-container .header-container{
+        background-size: 190% !important;
+    }
+
+    .main-container .logo-container{
+        width: 230px;
+        height: 230px;
+        top:calc(-43%);
+    }
+
+    .home-container .header-container .share-container .icon-share{
+        height: 150px;
+        margin: 25px;
+        font-size: 2.5rem;
+    }
+
+    .home-container .header-container .header-name{
+        height: 110px;
+    }
+
+    .home-container .header-container .header-name h1{ 
+        font-size: 3.5rem;
+    }
+    
+    .home-container .header-container .header-name h4{ 
+        margin-top: -7px;
+        font-size: 1.5rem;
+    }
+
+    .main-container a{
+        margin-top: 15px;
+        font-size: 1.4rem;
+    }
+
+    .main-container p{
+        font-size: 1.3rem;
+    }
+
 }
 
 @media (1024px <= width <= 1199px){
 
+     .home-container{
+        background-size: 150%;
+        animation: fondoAnimado 50s infinite;
+    }
+
+    .home-container .header-container{
+        background-size: 190% !important;
+    }
+
+    .main-container .logo-container{
+        width: 270px;
+        height: 270px;
+        top:calc(-42%);
+    }
+
+    .home-container .header-container .share-container .icon-share{
+        height: 200px;
+        margin: 25px;
+        font-size: 3rem;
+    }
+
+    .home-container .header-container .header-name{
+        height: 130px;
+    }
+
+    .home-container .header-container .header-name h1{ 
+        font-size: 4.5rem;
+    }
+    
+    .home-container .header-container .header-name h4{ 
+        margin-top: -7px;
+        font-size: 2rem;
+    }
+
+    .main-container a{
+        margin-top: 15px;
+        font-size: 2rem;
+    }
+
+    .main-container p{
+        font-size: 1.7rem;
+    }
+
 }
 
 @media (1200px <= width <= 1919px){
+
+    .home-container{
+        background-size: 120%;
+        animation: fondoAnimado 30s infinite;
+    }
+
+    .home-container .header-container{
+        width: 100%;
+        background-size: 110% !important;
+    }
+
+    .home-container .main-container{
+        width: 50% !important;
+        border-radius: 10px;
+        height: 285px !important;
+        margin-bottom: 5vh;
+    }
+
+    .home-container .header-container .share-container .icon-share{
+        height: 100px;
+        margin: 25px;
+        font-size: 2.1rem;
+    }
+    
+    .home-container .header-container .header-name{
+        height: 70px;
+    }
+    
+    .home-container .header-container .header-name h1{ 
+        font-size: 3.5rem;
+    }
+    
+    .home-container .header-container .header-name h4{ 
+        margin-top: -7px;
+        font-size: 1.5rem;
+    }
+
+    .main-container .logo-container{
+        width: 200px !important;
+        min-height: 200px !important;
+        top: calc(-35%);
+    }
+
+    .main-container a{
+        margin-top: 15px;
+        font-size: 1.5rem;
+    }
+
+    .main-container p{
+        font-size: 1rem;
+    }
 }
 
 @media (1920px <= width <= 2600px){
+
+    .home-container{
+        background-size: 110%;
+        animation: fondoAnimado 25s infinite;
+    }
+
+    .home-container .header-container{
+        width: 100%;
+        background-size: 110% !important;
+    }
+
+    .home-container .main-container{
+        width: 40% !important;
+        border-radius: 10px;
+        height: 350px !important;
+        margin-bottom: 5vh;
+    }
+
+    .home-container .header-container .share-container .icon-share{
+        height: 100px;
+        margin: 25px;
+        font-size: 2.1rem;
+    }
+    
+    .home-container .header-container .header-name{
+        height: 150px;
+    }
+    
+    .home-container .header-container .header-name h1{ 
+        font-size: 4.5rem;
+    }
+    
+    .home-container .header-container .header-name h4{ 
+        margin-top: -7px;
+        font-size: 1.5rem;
+    }
+
+    .main-container .logo-container{
+        width: 250px !important;
+        min-height: 250px !important;
+        top: calc(-45%);
+    }
+
+    .main-container a{
+        margin-top: 15px;
+        font-size: 1.5rem;
+    }
+
+    .main-container p{
+        font-size: 1rem;
+    }
 }
 
 .home-container{
@@ -41,6 +297,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+    background-color: #e0e0e0;
+    background-image: linear-gradient(35deg,rgba(197, 197, 197, 0.8), rgba(255, 255, 255, 0.75)), url("../../assets/bg2.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
 }
 
 .home-container .main-container,
@@ -50,12 +311,6 @@
 }
 
 .home-container .header-container{
-    height: 50dvh;
-    background-color: #e0e0e0;
-    background-image: linear-gradient(35deg,rgba(197, 197, 197, 0.8), rgba(255, 255, 255, 0.75)), url("../../assets/bg2.jpg");
-    background-position:top center;
-    background-repeat: no-repeat;
-    animation: fondoAnimado 50s infinite;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,27 +324,18 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    animation: 6s ease-in-out 0s infinite normal none running bounce;
-}
-
-.home-container .header-container .share-container .icon-share{
-    height: 100px;
-    margin: 15px;
-    font-size: 2.1rem;
+    animation: bounce 5s infinite;
 }
 
 .home-container .header-container .header-name{
-    height: 65px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 1.3rem;
 }
 
 .home-container .header-container .header-name h1{ 
     font-family: "Kaushan Script", cursive;
-    font-size: 3rem;
 }
 
 .home-container .header-container .header-name h4{ 
@@ -118,9 +364,9 @@
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 1);
-    animation: 6s ease-in-out 0s infinite normal none running bounce;
     border: 1px solid rgba(255, 255, 255, 0.3);
     transition: 0.5s all;
+    animation: 6s ease-in-out 0s infinite normal none running bounce;
 }
 
 .main-container .logo-container img{
@@ -128,13 +374,11 @@
 }
 
 .main-container a{
-    font-size: 1.2rem;
     letter-spacing: .2rem;
 }
 
 .main-container p{
     color: #5f5f5f;
-    font-size: 1rem;
     margin-top: 5px;
 }
 
@@ -144,13 +388,13 @@
 
 @keyframes fondoAnimado {
     0%{
-        background-position: 0% 50%;
+        background-position: 0% 0%;
     }
     50%{
-        background-position: 100% 50%;
+        background-position: 100% 0%;
     }
     100%{
-        background-position: 0% 50%;
+        background-position: 0% 0%;
     }
 }
 
