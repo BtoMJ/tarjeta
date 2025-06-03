@@ -84,8 +84,115 @@
 
 }
 
-@media (481px <= width <= 767px){
+@media (481px <= width <= 767px) and ( orientation: landscape ){
 
+    .home-container{
+        width: 100dvw;
+        height: 100dvh;
+        display: flex;
+        flex-direction: row !important; 
+        background-size: 110%;
+    }
+
+    .home-container .main-container,
+    .home-container .header-container{
+        width: 50% !important;
+        height: 100dvh !important;
+    }
+
+    .home-container .header-container{
+        justify-content: center !important;
+    }
+ 
+    .home-container .header-container .share-container{
+        width: 80% !important;
+    }
+    
+    .home-container .header-container .share-container .icon-share{
+        height: 70px;
+        margin: 25px;
+        font-size: 2.2rem !important;
+    }
+
+    .home-container .header-container .header-name h1{ 
+        font-size: 3rem;
+    }
+    
+    .home-container .header-container .header-name h4{ 
+        margin-top: 0 !important;
+        font-size: 1.3rem;
+    }
+
+    .main-container .logo-container{
+        width: 150px;
+        height: 150px;
+    }
+
+    .main-container a{
+        margin-top: 30px;
+        font-size: 1rem;
+    }
+
+    .main-container p{
+        font-size: 1rem;
+    }
+
+}
+
+@media (768px <= width <= 1023px) and ( orientation: landscape ){
+
+    .home-container{
+        width: 100dvw;
+        height: 100dvh;
+        display: flex;
+        flex-direction: row !important; 
+        background-size: 115% !important;
+        animation: fondoAnimado 40s infinite !important;
+    }
+
+    .home-container .main-container,
+    .home-container .header-container{
+        width: 50% !important;
+        height: 100dvh !important;
+    }
+
+    .home-container .header-container{
+        justify-content: center !important;
+    }
+ 
+    .home-container .header-container .share-container{
+        width: 80% !important;
+    }
+    
+    .home-container .header-container .share-container .icon-share{
+        height: 70px !important;
+        margin: 25px;
+        font-size: 2.3rem !important;
+    }
+
+    .home-container .header-container .header-name h1{ 
+        font-size: 3rem;
+    }
+    
+    .home-container .header-container .header-name h4{ 
+        margin-top: 0 !important;
+        font-size: 1.3rem;
+    }
+
+    .main-container .logo-container{
+        width: 150px !important;
+        height: 150px !important;
+        margin-top: 180px !important;
+    }
+
+    .main-container a{
+        margin-top: 30px;
+        font-size: 1rem;
+    }
+
+    .main-container p{
+        font-size: 1rem;
+    }
 }
 
 @media (768px <= width <= 1023px){
@@ -142,10 +249,6 @@
         animation: fondoAnimado 50s infinite;
     }
 
-    .home-container .header-container{
-        background-size: 190% !important;
-    }
-
     .main-container .logo-container{
         width: 270px;
         height: 270px;
@@ -178,6 +281,64 @@
 
     .main-container p{
         font-size: 1.7rem;
+    }
+
+}
+
+@media (1024px <= width <= 1199px) and ( orientation: landscape ){
+
+    .home-container{
+        background-size: 135% !important;
+        animation: fondoAnimado 50s infinite;
+    }
+
+    .home-container .header-container{
+        width: 100%;
+    }
+
+    .home-container .header-container .share-container{
+        width: 80% !important;
+    }
+
+    .home-container .main-container{
+        width: 50% !important;
+        border-radius: 10px;
+        height: 320px !important;
+        margin-bottom: 5vh !important;
+    }
+
+    .home-container .header-container .share-container .icon-share{
+        height: 100px;
+        margin: 25px;
+        font-size: 2.5rem;
+    }
+    
+    .home-container .header-container .header-name{
+        height: 90px;
+    }
+    
+    .home-container .header-container .header-name h1{ 
+        font-size: 3.5rem;
+    }
+    
+    .home-container .header-container .header-name h4{ 
+        margin-top: -7px;
+        font-size: 1.5rem;
+    }
+
+    .main-container .logo-container{
+        width: 170px !important;
+        height: 170px !important;
+        top: calc(-35%) !important;
+    }
+
+    .main-container a{
+        margin-top: -25px;
+        font-size: 1.5rem;
+    }
+
+    .main-container p{
+        font-size: 1rem;
     }
 
 }
@@ -222,12 +383,122 @@
 
     .main-container .logo-container{
         width: 200px !important;
-        min-height: 200px !important;
+        height: 200px !important;
         top: calc(-35%);
     }
 
     .main-container a{
         margin-top: 15px;
+        font-size: 1.5rem;
+    }
+
+    .main-container p{
+        font-size: 1rem;
+    }
+}
+
+@media (1200px <= width <= 1919px) and ( max-height: 720px ){
+
+    .home-container{
+        background-size: 110vdh !important;
+        animation: fondoAnimado 50s infinite;
+    }
+
+    .home-container .header-container{
+        width: 100%;
+    }
+
+    .home-container .main-container{
+        width: 50% !important;
+        border-radius: 10px;
+        height: 33vh !important;
+        margin-bottom: -5vh !important;
+    }
+
+    .home-container .header-container .share-container{
+        margin-top: -30px !important;
+    }
+
+    .home-container .header-container .share-container .icon-share{
+        font-size: 2.3rem;
+    }
+    
+    .home-container .header-container .header-name{
+        height: 10dvh !important;
+    }
+    
+    .home-container .header-container .header-name h1{ 
+        font-size: 3.5rem;
+    }
+    
+    .home-container .header-container .header-name h4{ 
+        margin-top: -7px;
+        font-size: 1.7rem;
+    }
+
+    .main-container .logo-container{
+        width: 200px !important;
+        height: 200px !important;
+        top: calc(-45%);
+    }
+
+    .main-container a{
+        margin-top: 20px;
+        font-size: 1.5rem;
+    }
+
+    .main-container p{
+        font-size: 1rem;
+    }
+}
+
+@media (1200px <= width <= 1919px) and ( min-height: 721px ){
+
+    .home-container{
+        background-size: 135% !important;
+        animation: fondoAnimado 50s infinite;
+    }
+
+    .home-container .header-container{
+        width: 100%;
+    }
+
+    .home-container .main-container{
+        width: 50% !important;
+        border-radius: 10px;
+        height: 33vh !important;
+        margin-bottom: -5vh !important;
+    }
+
+    .home-container .header-container .share-container{
+        margin-top: -30px !important;
+    }
+
+    .home-container .header-container .share-container .icon-share{
+        font-size: 3rem;
+    }
+    
+    .home-container .header-container .header-name{
+        height: 20dvh !important;
+    }
+    
+    .home-container .header-container .header-name h1{ 
+        font-size: 4.2rem;
+    }
+    
+    .home-container .header-container .header-name h4{ 
+        margin-top: -7px;
+        font-size: 2rem;
+    }
+
+    .main-container .logo-container{
+        width: 200px !important;
+        height: 200px !important;
+        top: calc(-55%);
+    }
+
+    .main-container a{
+        margin-top: 20px;
         font-size: 1.5rem;
     }
 

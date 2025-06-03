@@ -16,7 +16,39 @@
 
 }
 
-@media (481px <= width <= 767px){
+@media (481px <= width <= 767px) and ( orientation: landscape ){
+
+    .modal-qr-container .content{
+        width: 300px;
+        height: 300px;
+    }
+
+    .modal-qr-container .content .qr{
+        width: 70%;
+        height: 71.2%;
+    }
+
+    .modal-qr-container .content .close{
+        margin-left: 230px;
+    }
+
+}
+
+@media (768px <= width <= 1023px) and ( orientation: landscape ){
+
+    .modal-qr-container .content{
+        width: 300px;
+        height: 300px;
+    }
+
+    .modal-qr-container .content .qr{
+        width: 70%;
+        height: 71.2%;
+    }
+
+    .modal-qr-container .content .close{
+        margin-left: 230px;
+    }
 
 }
 

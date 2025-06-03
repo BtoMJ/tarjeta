@@ -11,7 +11,34 @@
 
 }
 
-@media (481px <= width <= 767px){
+@media (481px <= width <= 767px) and ( orientation: landscape ){
+
+    .modal-form-container .form-content{
+        width: 600px;
+        height: 330px !important;
+        padding: 5px !important;
+    }
+
+    .modal-form-container .form-content .close{
+        margin-left: 530px;
+        margin-top: 10px;
+    }
+
+}
+
+@media (768px <= width <= 1023px) and ( orientation: landscape ){
+
+    .modal-form-container .form-content{
+        width: 700px !important;
+        height: 370px !important;
+        padding: 5px !important;
+    }
+
+    .modal-form-container .form-content .close{
+        margin-left: 620px !important;
+        margin-top: 10px;
+        z-index: 1000 !important;
+    }
 
 }
 
